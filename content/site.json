@@ -1,0 +1,20 @@
+{
+  "_help": "Website settings. Turn a section on with true, off with false. Add clients and testimonials to the lists below (see the examples in _examples). Save, publish, and the site shows them.",
+
+  "web3forms_key": "",
+
+  "whatsapp_number": "+9613820551",
+  "whatsapp_message": "Hello HAI, I'd like to know more about",
+
+  "show_clients": false,
+  "clients": [],
+
+  "show_testimonials": false,
+  "testimonials": [],
+
+  "_examples": {
+    "client": { "name": "Company name", "logo": "assets/clients/company-logo.png", "url": "https://company-website.com" },
+    "testimonial_text": { "quote": "What the client says, in their own words.", "name": "Client name", "role": "Role", "company": "Company", "photo": "assets/testimonials/photo.jpg" },
+    "testimonial_video": { "video": "assets/testimonials/client-video.mp4", "poster": "assets/testimonials/client-video.jpg", "name": "Client name", "role": "Role", "company": "Company" }
+  }
+}
